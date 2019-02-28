@@ -21,46 +21,6 @@ var time0 = createGraph(parseData.data[0], 'Время - 0', 'x');
 var time1 = createGraph(parseData.data[1], 'Время - 30', 'x2');
 var time2 = createGraph(parseData.data[2], 'Время - 60', 'x3');
 
-// var time0 = {
-//   x: [],
-//   y: [],
-//   type: 'scatter',
-//   name: 'Время - 0'
-// };
-//
-// for (var i = 0; i < parseData.data[0].height.length; i++) {
-//   time0.y.push(parseData.data[0].height[i]);
-//   time0.x.push(parseData.data[0].temperature[i]);
-// }
-//
-// var time1 = {
-//   x: [],
-//   y: [],
-//   type: 'scatter',
-//   xaxis: 'x2',
-//   yaxis: 'y',
-//   name: 'Время - 30'
-// };
-//
-// for (var i = 0; i < parseData.data[1].height.length; i++) {
-//   time1.y.push(parseData.data[1].height[i]);
-//   time1.x.push(parseData.data[1].temperature[i]);
-// }
-//
-// var time2 = {
-//   x: [],
-//   y: [],
-//   type: 'scatter',
-//   xaxis: 'x3',
-//   yaxis: 'y',
-//   name: 'Время - 60'
-// };
-//
-// for (var i = 0; i < parseData.data[2].height.length; i++) {
-//   time2.y.push(parseData.data[2].height[i]);
-//   time2.x.push(parseData.data[2].temperature[i]);
-// }
-
 var data = [time0, time1, time2];
 
 var layout = {
