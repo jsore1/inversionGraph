@@ -66,7 +66,8 @@ var layout = {
   yaxis: {
     title: 'Высота'
   },
-  shapes: [inv0[0], inv0[1],inv0[2], inv1[0], inv1[1], inv2[0], inv2[1], inv2[2]]
+  shapes: [inv0[0], inv0[1],inv0[2], inv1[0], inv1[1], inv2[0], inv2[1], inv2[2]],
+  showlegend: false
 };
 
 var gd = document.getElementById('myDiv')
